@@ -1,0 +1,26 @@
+{
+    "name": "francerz/sqlsrv-builder",
+    "description": "Microsoft SQL Server driver for francerz/sql-builder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francerz",
+            "email": "francerzam@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "files": ["src/init.php"],
+        "psr-4": {
+            "Francerz\\SqlBuilder\\SqlSrv\\": "src"
+        }
+    },
+    "require": {
+        "francerz/sql-builder": "^0.2.62",
+        "ext-pdo": "^7.4",
+        "ext-pdo_sqlsrv": "^5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
