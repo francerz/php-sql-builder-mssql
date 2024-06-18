@@ -17,7 +17,7 @@
     },
     "require": {
         "ext-pdo": "^7.0",
-        "ext-pdo_sqlsrv": "^5.6",
+        "ext-pdo_sqlsrv": "^5.10",
         "francerz/sql-builder": "^0.5"
     },
     "require-dev": {
